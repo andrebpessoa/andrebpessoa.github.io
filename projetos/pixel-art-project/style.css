@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: ZCOOL KuaiLe, cursive;
+  background-color: rgb(119, 207, 223);
+}
+
+#title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 400px;
+  height: 100px;
+}
+
+#color-palette {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: 52px;
+  margin-bottom: 20px;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.pixel {
+  width: 41px;
+  height: 41px;
+  border: 1px solid black;
+}
+
+#pixel-board {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr {
+  display: table-row;
+}
+
+td {
+  display: table-cell;
+}
+
+#button {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#clear-board {
+  text-align: center;
+  font-size: 20px;
+  width: 210px;
+  height: 50px;
+  background-color: white;
+}
+
+#input {
+  text-align: center;
+  width: 100%;
+  height: 34px;
+  margin-bottom: 30px;
+}
+
+#board-size {
+  text-align: center;
+  font-size: 18px;
+  width: 150px;
+  height: 30px;
+  background-color: white;
+}
+
+#generate-board {
+  font-size: 18px;
+  width: 50px;
+  height: 34px;
+  background-color: white;
+}

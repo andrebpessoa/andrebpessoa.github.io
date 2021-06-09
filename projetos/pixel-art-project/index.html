@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <title>Projeto Pixels Art</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+
+  <main id="main">
+    <table id="color-palette">
+      <tr>
+        <td class="color black selected" style="background-color: black;"></td>
+        <td class="color"></td>
+        <td class="color"></td>
+        <td class="color"></td>
+      </tr>
+    </table>
+    <section id="button">
+      <button id="clear-board">Limpar</button>
+    </section>
+    <section id=input>
+      <input type="number" name="Tamanho do Quadro" min="1" id="board-size">
+      <button type="submit" id="generate-board">VQV</button>
+    </section>
+    <table id="pixel-board">
+    </table>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
